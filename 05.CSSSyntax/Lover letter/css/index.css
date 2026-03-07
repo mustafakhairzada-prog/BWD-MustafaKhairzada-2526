@@ -1,3 +1,6 @@
+/* stylelint-disable declaration-property-value-no-unknown */
+/* stylelint-disable alpha-value-notation */
+/* stylelint-disable-next-line rule-empty-line-before */
 *{
 margin:0;
 padding:0;
@@ -10,6 +13,7 @@ body{
 font-family:'Indie Flower', cursive;
 
 /* hartjes achtergrond */
+/* stylelint-disable-next-line function-url-quotes */
 background-image:url("../img/tile.png");
 background-repeat:repeat;
 
@@ -27,6 +31,7 @@ min-height:100vh;
 .paper-sheet{
 
 /* stylelint-disable-next-line declaration-empty-line-before */
+/* stylelint-disable-next-line function-url-quotes */
 background-image:url("../img/bg.png");
 background-size:cover;
 background-position:center;
@@ -67,7 +72,7 @@ mark{
 background:transparent;
 font-weight:bold;
 /* stylelint-disable-next-line color-function-notation */
-text-shadow:2px 2px 4px rgba(163, 15, 15, 0.5);
+text-shadow:2px 2px 4px rgba(163, 15, 15, 5);
 }
 
 footer{
