@@ -1,0 +1,78 @@
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 18px;
+    margin: -2px;
+}
+/* stylelint-disable-next-line rule-empty-line-before */
+.btnFav {
+    /* stylelint-disable-next-line color-function-notation */
+    color: rgb(153, 9, 9);
+    height: 50px;
+    width: 50px;
+    /* stylelint-disable-next-line color-function-notation */
+    background-color:rgb(238, 176, 176);
+    /* stylelint-disable-next-line declaration-property-value-no-unknown */
+    border-radius: 50%;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    text-decoration: none;
+}
+/* stylelint-disable-next-line rule-empty-line-before */
+.btnFav:hover {
+    background-color: #d1b9a9;
+    font-size: 35px;
+    color: red;
+}
+/* stylelint-disable-next-line rule-empty-line-before */
+a {
+    cursor: pointer;
+    transition: 0.1s;
+}
+/* stylelint-disable-next-line rule-empty-line-before */
+.btnGreen {
+    /* stylelint-disable-next-line color-function-notation */
+    background-color: rgb(50, 160, 28);
+    color: white;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-weight: bold;
+}
+/* stylelint-disable-next-line rule-empty-line-before */
+.btnGreen:hover {
+    background-color:#8fb34d;
+    /* stylelint-disable-next-line color-function-notation */
+    color: rgb(5, 45, 5);
+}
+/* stylelint-disable-next-line rule-empty-line-before */
+.btnTiktok {
+    /* stylelint-disable-next-line color-function-notation */
+    background-color: rgb(220, 215, 215);
+    padding: 13px 13px;
+    width: 10px;
+    /* stylelint-disable-next-line declaration-block-no-duplicate-properties */
+    border-radius: 3%;
+    text-decoration: none;
+    border-radius: 5px;
+}
+/* stylelint-disable-next-line rule-empty-line-before */
+.btnTiktok:hover {
+    text-decoration: underline;
+}
+/* stylelint-disable-next-line rule-empty-line-before */
+.tiktook-logo {
+   height: 30px;
+   width: auto;
+   transition: transform 0.2s ease;
+   font-size: 10px;
+   cursor: pointer;
+   vertical-align: -8px;
+}
+/* stylelint-disable-next-line rule-empty-line-before */
+.tiktook-logo:hover {
+    transform: scale(1.2);
+}
