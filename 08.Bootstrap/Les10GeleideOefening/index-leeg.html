@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Superhelden Academie – Inschrijfformulier</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">إ
+</head>
+
+<body class="bg-light py-5">
+
+  <div class="container">
+
+    <div class="text-center">
+      <h1 class="h1 mb-3">🦸Inschrijving Superhelden Academie</h1>
+      <p class="lead">Vul het formulier in en sluit je aan bij de heldhaftigste opleiding ter wereld.</p>
+    </div>
+
+
+    <div class="card shadow">
+      <div class="card-body">
+        <form>
+
+          <!-- STAP 1 – Persoonlijke gegevens -->
+          <h2 class="mb-3">1. Persoonlijke gegevens</h2>
+
+          <div class="row mb-4">
+            <div class="col-md-6 mb-3">
+              <label class="form-label" for="voornaam">Voornaam</label><br>
+              <input class="form-control" type="text" id="voornaam" required><br><br>
+            </div>
+
+            <div class="col-md-6 mb-3">
+              <label class="form-label" for="supernaam">Superheldennaam</label><br>
+              <input class="form-control" type="text" id="supernaam" required><br><br>
+            </div>
+
+            <div class="col-12">
+              <label class="form-label" for="email">E-mailadres</label><br>
+              <input class="form-control" type="email" id="email" placeholder="hero@academy.com">
+              <small>We gebruiken je e-mailadres enkel in noodgevallen.</small><br><br>
+            </div>
+
+          </div>
+
+          <!-- STAP 2 – Superkracht -->
+          <h2 class="mb-3">2. Kies je superkracht</h2>
+
+          <div class="mb-4">
+            <label class="form-label" for="kracht">Superkracht</label><br>
+            <select class="form-select" id="kracht">
+              <option selected>Kies een kracht...</option>
+              <option>Onzichtbaarheid</option>
+              <option>Supersnelheid</option>
+              <option>Teleportatie</option>
+              <option>Gedachten lezen</option>
+              <option>Superslim brein</option>
+            </select>
+          </div><br><br>
+
+          <!-- STAP 3 – Uitrusting -->
+          <h2 class="mb-3">3. Uitrusting</h2>
+          <div class="mb-4">
+            <p class="mb-2">Welke uitrusting wil je tijdens je opleiding?</p>
+  
+            <input class="form-check-input" type="checkbox" id="mantel">
+            <label for="mantel">Onzichtbaarheidsmantel</label><br>
+  
+            <input class="form-check-input" type="checkbox" id="laserbril">
+            <label for="laserbril">Laserbril</label><br>
+  
+            <input class="form-check-input" type="checkbox" id="jetpack">
+            <label for="jetpack">Jetpack</label>
+          </div><br><br>
+
+          <!-- STAP 4 – Missie -->
+          <h2>4. Geheime missie</h2>
+          <div class="mb-4">
+            <p class="mb-2">Wat is jouw favoriete type missie?</p>
+  
+            <div class="form-check">
+              <input type="radio" name="missie" id="wereldredden">
+              <label for="wereldredden">De wereld redden(classic🌍)</label>
+            </div>
+  
+            <div class="form-check">
+              <input type="radio" name="missie" id="snacksbeschermen">
+              <label for="snacksbeschermen">Snacks beschermen tegen collega-superhelden🍪</label>
+            </div>
+          </div><br><br>
+
+          <!-- STAP 5 – Donkere modus -->
+          <h2 class="mb-3">5. Donkere supermodus</h2>
+
+          <div class="form-check mb-4 form-switch" >
+            <input class="form-check-input" type="checkbox" id="darkmode">
+            <label class="form-check-label" for="darkmode">Activeer donkere supermodus</label>
+          </div><br><br>
+
+          <!-- STAP 6 – Ervaring -->
+          <h2>6. Ervaring</h2>
+
+          <div class="mb-4">
+            <label class="form-label" for="ervaring">
+              Hoe ervaren ben je als superheld? (0 = beginner, 10 = legende)
+            </label><br>
+            <input class="form-range" type="range" id="ervaring" min="0" max="10">
+          </div><br><br>
+
+          <!-- STAP 7 – Budget -->
+          <h2 class="mb-4">7. Superhelden-budget</h2>
+
+          <div class="input-group mb-4">
+            <label  for="budget">(€)</label><br>
+            <input class="form-control" placeholder="Budget voor gadgets" type="text" id="budget">
+          </div><br><br>
+
+          <!-- STAP 8 – Geheime opmerkingen -->
+          <h2>8. Geheime opmerkingen</h2>
+
+          <label for="geheimeOpmerkingen">Geheime opmerkingen</label><br>
+          <textarea class="form-control" id="geheimeOpmerkingen" placeholder="Geheime opmerkingen, zwakke punnten van vijanden,enz." rows="4"></textarea><br><br>
+
+          <!-- STAP 9 – VIP-code -->
+          <h2 class="mb-3">9. VIP-code</h2>
+
+          <div class="mb-4">
+            <fieldset disabled>
+              <label class="form-label" for="vip">VIP-code (alleen voor Batman)</label><br>
+              <input class="form-control bg-light" type="text" id="vip" value="BATMAN-ONLY"><br>
+              <small class="text-">Deze code is momenteel niet beschikbaar.</small>
+            </fieldset>
+          </div><br><br>
+
+          <!-- STAP 10 – Akkoord & verzenden -->
+          <h2 class="mb-3">10. Laatste check</h2>
+
+          <div class="mb-4 form-check">
+            <input class="form-check-input" type="checkbox" id="akkoord" required>
+            <label class="form-check-label" for="akkoord">
+              Ik verklaar plechtig dat ik géén schurk ben en mijn krachten enkel voor het goede zal gebruiken. 😇
+            </label>
+          </div><br><br>
+
+          <div class="d-grid mt-5">
+            <button type="submit" class="btn btn-success">
+             ✅ Inschrijven als Superheld
+            </button>
+          </div>
+
+        </form>
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>

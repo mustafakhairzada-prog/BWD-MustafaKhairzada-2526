@@ -18,56 +18,65 @@
 
 	<main>
 		<section class="container">
-			<div>
-				<h2>Voeding is de basis</h2>
-				<p>Gezonde voeding levert energie, ondersteunt je immuunsysteem en zorgt voor een goed humeur. Focus op
-					verse groenten, fruit, volkorenproducten en voldoende water.</p>
-				<ul>
-					<li>Eet gevarieerd en kleurrijk</li>
-					<li>Beperk toegevoegde suikers</li>
-					<li>Drink minstens 1,5 liter water per dag</li>
-				</ul>
-			</div>
-			<div>
-				<img src="img/healthy_food.webp" alt="Gezonde voeding op een bord">
-			</div>
-		</section>
-
-		<section class="container">
-			<div>
-				<h2>Blijf in beweging</h2>
-				<p>Regelmatige lichaamsbeweging verlaagt stress, versterkt spieren en verbetert je concentratie. Kies
-					een
-					activiteit die je leuk vindt en bouw het rustig op.</p>
-				<figure>
-					<img src="img/fitness.webp" alt="Vrouw aan het joggen in de natuur">
-					<figcaption>Een dagelijkse wandeling maakt al een groot verschil.</figcaption>
-				</figure>
-			</div>
-			<div>
-				<div>
-					<h4>Beweegtip van de week</h4>
-					<p>Wissel eens de lift in voor de trap, of parkeer wat verder om extra stappen te zetten. Kleine
-						gewoontes leiden tot groot effect.</p>
+			<div class="row">
+				<div class="col-md-6 my-auto">
+					<h2>Voeding is de basis</h2>
+					<p>Gezonde voeding levert energie, ondersteunt je immuunsysteem en zorgt voor een goed humeur. Focus
+						op
+						verse groenten, fruit, volkorenproducten en voldoende water.</p>
+					<ul>
+						<li>Eet gevarieerd en kleurrijk</li>
+						<li>Beperk toegevoegde suikers</li>
+						<li>Drink minstens 1,5 liter water per dag</li>
+					</ul>
+				</div>
+				<div class="col-md-6 mb-5">
+					<img src="img/healthy_food.webp" alt="Gezonde voeding op een bord">
 				</div>
 			</div>
 		</section>
 
 		<section class="container">
-			<div class="row">
-				<h2>Mentale gezondheid</h2>
+			<div class="row align-items-center">
+				<div class="col-md-5">
+					<div class="card-tip p-4">
+
+						<h4 class="text-success fw-bold mb-3">Beweegtip van de week</h4>
+						<p class="mb-0">Wissel eens de lift in voor de trap, of parkeer wat verder om extra stappen te zetten.
+							Kleine
+							gewoontes leiden tot groot effect.</p>
+
+					</div>
+				</div>
+				<div class="col-md-6 my-auto mb-4">
+					<h2>Blijf in beweging</h2>
+					<p>Regelmatige lichaamsbeweging verlaagt stress, versterkt spieren en verbetert je concentratie.
+						Kies
+						een
+						activiteit die je leuk vindt en bouw het rustig op.</p>
+					<figure>
+						<img src="img/fitness.webp" alt="Vrouw aan het joggen in de natuur">
+						<figcaption>Een dagelijkse wandeling maakt al een groot verschil.</figcaption>
+					</figure>
+				</div>
+			</div>
+		</section>
+
+		<section class="container mb-5">
+			<div class="text-center">
+				<h2 class="mb-4 fw-bold">Mentale gezondheid</h2>
 				<div>
-					<div>
+					<div class="col-md-4">
 						<img src="img/relax.webp" alt="Rustmoment met thee">
 						<h5>Ontspan</h5>
 						<p>Neem regelmatig tijd voor jezelf. Een korte pauze vermindert stress en verhoogt focus.</p>
 					</div>
-					<div>
+					<div class="col-md-4">
 						<img src="img/sleep.webp" alt="Goede nachtrust">
 						<h5>Slaap goed</h5>
 						<p>Een goede nachtrust bevordert herstel en mentale veerkracht.</p>
 					</div>
-					<div>
+					<div class="col-md-4">
 						<img src="img/nature2.webp" alt="Wandeling in het bos">
 						<h5>Ga naar buiten</h5>
 						<p>Frisse lucht en natuur verbeteren je stemming en energiepeil.</p>
@@ -76,35 +85,37 @@
 			</div>
 		</section>
 
-		<section class="container">
-			<h2>Dagelijkse gewoontes</h2>
-			<p>Een overzicht van gezonde dagelijkse gewoontes en hun voordelen.</p>
-			<table>
-				<thead>
-					<tr>
-						<th scope="col">Gewoonte</th>
-						<th scope="col">Voordeel</th>
-						<th scope="col">Aanbevolen frequentie</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td>8 glazen water drinken</td>
-						<td>Hydratatie en energie</td>
-						<td>Dagelijks</td>
-					</tr>
-					<tr>
-						<td>30 minuten wandelen</td>
-						<td>Betere conditie</td>
-						<td>Minstens 5x/week</td>
-					</tr>
-					<tr>
-						<td>Voldoende slaap</td>
-						<td>Mentale focus</td>
-						<td>Elke nacht</td>
-					</tr>
-				</tbody>
-			</table>
+		<section class="container mb-5 pb-5">
+			<h2 class="fw-bold mb-3">Dagelijkse gewoontes</h2>
+			<p class="mb-4">Een overzicht van gezonde dagelijkse gewoontes en hun voordelen.</p>
+			<div class="table table-bordered table-hover table-striped">
+				<table>
+					<thead>
+						<tr class="table-success">
+							<th scope="col">Gewoonte</th>
+							<th scope="col">Voordeel</th>
+							<th scope="col">Aanbevolen frequentie</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>8 glazen water drinken</td>
+							<td>Hydratatie en energie</td>
+							<td>Dagelijks</td>
+						</tr>
+						<tr>
+							<td>30 minuten wandelen</td>
+							<td>Betere conditie</td>
+							<td>Minstens 5x/week</td>
+						</tr>
+						<tr>
+							<td>Voldoende slaap</td>
+							<td>Mentale focus</td>
+							<td>Elke nacht</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
 		</section>
 	</main>
 
