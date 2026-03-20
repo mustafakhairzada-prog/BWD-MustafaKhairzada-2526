@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <meta charset="utf-8">
+  <title>Casa Mexicana – Brussel</title>
+
+  <!-- Bootstrap CSS: voeg hier later de Bootstrap 5 CDN-link toe -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="css/style.css"> -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- Navbar zonder JS -->
+  <header class="border-bottom bg-white">
+    <div class="container d-flex flex-wrap align-items-center justify-content-between py-3">
+      <a href="#home" class="navbar-brand fw-bold text-danger mb-0">
+        Casa Mexicana
+      </a>
+      <ul class="nav small fw-semibold">
+        <li class="nav-item">
+          <a href="#home" class="nav-link text-dark">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#menu" class="nav-link text-dark">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a href="#dagmenu" class="nav-link text-dark">Dagmenu</a>
+        </li>
+        <li class="nav-item">
+          <a href="#reviews" class="nav-link text-dark">Reviews</a>
+        </li>
+        <li class="nav-item">
+          <a href="#openingstijden" class="nav-link text-dark">Openingstijden</a>
+        </li>
+        <li class="nav-item">
+          <a href="#contact" class="nav-link text-dark">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero  px-4" id="home">
+    <div class="hero-inner container text-center ">
+      <h1 class="display-4 fw-bold mb-3">Casa Mexicana</h1>
+      <p class="lead mb-4">Authentieke Mexicaanse smaken, hartje Brussel.</p>
+      <a href="#menu" class="btn btn-warning btn-lg">Ontdek ons menu</a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="py-5">
+    <div class="container text-center">
+      <h2 class="fw-bold mb-3">Welkom in Casa Mexicana</h2>
+      <p class="about-text text-muted mx-auto">
+        Bij ons proef je de warmte en kleuren van Mexico. Verse ingrediënten, huisgemaakte salsa’s en
+        een gezellige sfeer maken van elke maaltijd een kleine fiesta.
+      </p>
+    </div>
+  </section>
+
+  <!-- MENU -->
+  <section id="menu" class="py-5">
+    <div class="container">
+      <h2 class="text-center fw-bold mb-5">Populaire Gerechten</h2>
+
+      <div class="row">
+
+        <div class="col-md-4">
+          <div class="card shadow-sm border-0 h-100">
+            <img src="img/tacos.jpg" class="menu-img" alt="Tacos Al Pastor">
+            <div class="card-body">
+              <h5 class="card-title">Tacos Al Pastor</h5>
+              <p class="card-text text-muted">Verse tortilla’s met gekruid varkensvlees, ananas en koriander.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card shadow-sm border-0 h-100">
+            <img src="img/burrito.jpg" class="menu-img" alt="Classic Burrito">
+            <div class="card-body">
+              <h5>Classic Burrito</h5>
+              <p>Rijst, bonen, vlees naar keuze en verse salsa.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card shadow-sm border-0 h-100">
+            <img src="img/nachos.jpg" class="menu-img" alt="Nachos Supreme">
+            <div class="card-body">
+              <h5>Nachos Supreme</h5>
+              <p>Krokante nachos met kaas, jalapeño, guacamole en tomaat.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <p>
+        Tip: zet je eigen foto’s als <code>tacos.jpg</code>, <code>burrito.jpg</code> en
+        <code>nachos.jpg</code> in de map <code>img</code>.
+      </p>
+    </div>
+  </section>
+
+  <!-- DAGMENU -->
+  <section  class="py-5" id="dagmenu">
+    <div  class="container">
+      <h2 class="text-center fw-bold mb-4">Dagmenu</h2>
+      <div  class="row justify-content-center">
+        <div class="col-md-7">
+          <div class="daymenu-card card border-0 shadow-sm">
+            <div  class="card-body">
+              <p  class="text-danger text-uppercase small fw-semibold mb-2">Vandaag</p>
+              <h3 class="h5 fw-bold mb-3">Fiesta Menu</h3>
+              <ul  class="list-unstyled mb-3 text-muted">
+                <li><strong>Voorgerecht:</strong> Nacho’s met huisgemaakte guacamole en salsa</li>
+                <li><strong>Hoofdgerecht:</strong> Tacos Al Pastor of Classic Burrito</li>
+                <li><strong>Dessert:</strong> Churros met chocoladesaus</li>
+              </ul>
+              <p class="fw-semibold mb-1"><strong>Prijs:</strong> € 29,50 per persoon</p>
+              <p  class="text-muted mb-0">
+                Dit menu is enkel beschikbaar op reservatie. Vraag gerust naar onze vegetarische opties!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section id="reviews" class="py-5">
+    <div class="container">
+      <h2 class="text-center fw-bold mb-4">Wat onze gasten zeggen</h2>
+      <div class="row g-4">
+
+        <div class="col-md-4">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body">
+              <p class="review-stars mb-1 text-warning">★★★★★</p>
+              <p class="card-text text-muted">
+                “Fantastisch eten en supervriendelijke bediening. Alsof je even op vakantie bent in Mexico.”
+              </p>
+              <p  class="small fw-semibold mb-0">— Sarah, Brussel</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body">
+              <p class="review-stars mb-1 text-warning">★★★★★</p>
+              <p class="card-text text-muted">
+                “De beste tacos die ik ooit gegeten heb. Grote porties en heel smaakvol.”
+              </p>
+              <p  class="small fw-semibold mb-0">— Ahmed, Schaarbeek</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body">
+              <p class="review-stars mb-1 text-warning">★★★★☆</p>
+              <p class="card-text text-muted">
+                “Gezellige sfeer, kleurrijk interieur en fantastische nachos. Aanrader met vrienden!”
+              </p>
+              <p  class="small fw-semibold mb-0">— Julie, Sint-Gillis</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- OPENINGSTIJDEN -->
+  <section id="openingstijden" class="py-5">
+    <div class="container bg-light py-5">
+      <h2 class="text-center fw-bold mb-4">Openingstijden</h2>
+      <div  class="row justify-content-center">
+        <div class="col-md-6">
+          <table class="table table-borderless text-center opening-table">
+            <tbody>
+              <tr>
+                <td class="fw-semibold">Maandag</td>
+                <td>Gesloten</td>
+              </tr>
+              <tr>
+                <td class="fw-semibold">Dinsdag – Donderdag</td>
+                <td>11:30 – 22:00</td>
+              </tr>
+              <tr>
+                <td class="fw-semibold">Vrijdag – Zaterdag</td>
+                <td>11:30 – 23:30</td>
+              </tr>
+              <tr>
+                <td class="fw-semibold">Zondag</td>
+                <td>12:00 – 21:00</td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="text-muted mt-3 text-center">
+            Keuken sluit 30 minuten voor sluitingstijd.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT / BEZOEK ONS -->
+  <section id="contact" class="py-5">
+    <div class="container text-center">
+      <h2 class="fw-bold mb-3">Bezoek ons</h2>
+      <p class="text-muted mb-1">Rue du Soleil 12, 1000 Brussel</p>
+      <p  class="text-muted mb-3">Open van dinsdag tot zondag — zie onze openingstijden hierboven.</p>
+      <p  class="text-muted mb-1">Tel: <a href="tel:003221234567">02/123.45.67</a></p>
+      <p  class="text-muted mb-4">E-mail: <a href="mailto:hola@casamexicana.brussels">hola@casamexicana.brussels</a></p>
+      <a href="#" class="btn btn-danger btn-lg">Reserveer een tafel</a>
+    </div>
+  </section>
+
+  <footer class="small bg-black text-center text-white py-4">
+    Casa Mexicana &copy; 2025 — Authentieke Mexicaanse keuken in Brussel
+  </footer>
+
+</body>
+
+</html>
