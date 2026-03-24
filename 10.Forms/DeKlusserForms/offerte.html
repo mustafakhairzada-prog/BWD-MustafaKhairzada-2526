@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offerte-Aanvragen</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="bg-white border-bottom mb-5">
+        <div class="container d-flex flex-wrap align-items-center justify-content-between py-3">
+            <a href="index.html#Offerte" class="navbar-brand fw-bold text-primary">HandigHuis</a>
+            <ul class="nav small fw-semibold">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link text-black">Home</a>
+                </li>
+                <li class="nav-item" class="nav-item text-black">
+                    <a href="#diensten" class="nav-link text-black">Diensten</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#werkwijze" class="nav-link text-black">Werkwijze</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link text-black">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Offerte" class="nav-link text-primery">Offerte</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <section class="container shadow-sm mb-5 pb-3">
+        <h1 class="fw-bold h1 mb-4">Offerte aanvragen</h1>
+        <p>Bij HandigHuis geloven we dat elk project begint met een goed gesprek. Of je nu enkele kleine klussen wil
+            combineren, een opfrisbeurt plant of een buitenproject wilt realiseren: vertel ons wat je voor ogen hebt en
+            wij denken met je mee. Hoe meer details je geeft — materialen, foto’s, afmetingen, stijlvoorkeuren — hoe
+            beter we een scherpe, vrijblijvende richtofferte kunnen opstellen. Onze offertes zijn duidelijk, transparant
+            en verrassend snel.</p>
+
+        <div class="border-bottom pb-4 mb-4">
+            <div class="row mb-4">
+                <div class="col-12 col-md-6">
+                    <label class="form-label" for="voornaam">Voornaam</label><br>
+                    <input class="form-control" type="text" id="voornaam" required>
+                </div>
+                <div class="col-12 col-md-6">
+                    <label class="form-label" for="E-mailadres">E-mail</label><br>
+                    <input class="form-control" type="email" id="E-mailadres" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <label class="form-label" for="GSM">GSM nummer</label><br>
+                    <input class="form-control" type="tel" id="GSM" required>
+                </div>
+                <div class="col-12 col-md-6">
+                    <label class="form-label" for="Locatie">Locatie (gemeente)</label><br>
+                    <input class="form-control" type="text" id="Locatie" required>
+                </div>
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <label for="Projecten" class="form-label">Soort klus / project</label>
+            <select class="form-select" id="Projecten">
+                <option selected>Kies een optie...</option>
+            </select>
+        </div>
+
+
+        <div class="mb-4">
+            <label for="Beschrijving" class="form-label">Beschrijving van de werken</label>
+            <textarea class="form-control" id="Beschrijving" rows="5"
+                placeholder="Beschrijving zo concreet mogelijk wat er moet gebeuren, in welke ruiumtes, afmetingen, huidige staat"></textarea>
+        </div>
+        <div class="row">
+            <div class="mb-4 col-12 col-md-6">
+                <label class="form-label" for="startdatum">Gewenste periode/ startdatum</label>
+                <input type="date" id="startdatum" class="form-control" name="datum"
+                    placeholder="Bij. vanaf september, of een concrete datum">
+            </div>
+            <div class="mb-4 col-12 col-md-6">
+                <label class="form-label" for="Budget">Richatbudget (optioneel)</label>
+                <input id="Budget" type="number" class="form-control" placeholder="Bijv. &euro; 500- &euro; 1000">
+            </div>
+        </div>
+        <div class="mb-2">
+            <label for="foto" class="form-label">Foto’s of plannen (optioneel)</label>
+            <input class="form-control" type="file" id="foto">
+        </div>
+        <small class="text-muted">Je kunt bijvoorbeeld foto’s van de huidige situatie, een schts of plan toeveogen.</small>
+        <div class="mt-3"><label><input type="checkbox"> Ik ga akkoord dat mijn gegevens gebruikt worden om contact met mij op te nemen over deze offerteaanvraag.</label></div>
+
+        <div class="d-grid mt-4"><button type="submit"  class="btn btn-primary">Offerte aanvraag versturen</button></div>
+    </section>
+</body>
+
+</html>
