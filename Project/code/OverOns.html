@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="nl" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onze Passie | Zwembad M&Ms</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        /* Subtiele animatie voor de Hero tekst */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .animate-fade-up { animation: fadeInUp 1s ease-out; }
+        
+        /* Achtergrondpatroon voor de waarden sectie */
+        .bg-pattern {
+            background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.1'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6h-2c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        }
+    </style>
+</head>
+<body class="bg-white text-slate-900 antialiased font-sans">
+
+    <nav class="fixed top-0 w-full z-50 bg-white/95 backdrop-blur-sm border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center">
+            <div class="text-2xl font-black text-blue-600 tracking-tighter">
+                M&Ms <span class="text-slate-400 font-light italic text-xl uppercase tracking-widest ml-1">Aqua</span>
+            </div>
+            <div class="hidden md:flex space-x-10 font-bold text-sm uppercase tracking-wider text-slate-600">
+                <a href="index.html" class="hover:text-blue-600 transition">Home</a>
+                <a href="over-ons.html" class="text-blue-600 border-b-2 border-blue-600">Onze Passie</a>
+                <a href="#" class="hover:text-blue-600 transition">Tarieven</a>
+            </div>
+            <a href="#" class="bg-blue-600 text-white px-6 py-2.5 rounded-full font-bold text-sm hover:bg-blue-700 transition shadow-md">Tickets</a>
+        </div>
+    </nav>
+
+    <header class="relative pt-40 pb-24 bg-slate-900 overflow-hidden">
+        <img src="img/1600w-5WjVzool7kE.webp" 
+             alt="Passie voor water" 
+             class="absolute inset-0 w-full h-full object-cover opacity-30 z-0">
+        <div class="relative z-10 max-w-7xl mx-auto px-6 text-center animate-fade-up">
+            <span class="inline-block px-4 py-1.5 mb-5 rounded-full bg-blue-500/10 backdrop-blur-sm border border-blue-400/30 text-blue-300 text-xs font-bold uppercase tracking-widest">Wie we zijn</span>
+            <h1 class="text-5xl md:text-7xl font-black text-white leading-tight tracking-tight mb-8">
+                Gedreven door <span class="text-blue-400 italic font-serif">Zuiverheid</span> & Plezier.
+            </h1>
+            <p class="text-xl text-slate-200 max-w-3xl mx-auto leading-relaxed opacity-90">
+                Bij Zwembad M&Ms geloven we dat water meer is dan een vloeistof; het is een bron van gezondheid, verbinding en pure ontspanning. Ontdek het verhaal achter onze passie.
+            </p>
+        </div>
+    </header>
+
+    <section class="py-24 max-w-7xl mx-auto px-6">
+        <div class="grid lg:grid-cols-12 gap-16 items-start">
+            <div class="lg:col-span-5 lg:sticky lg:top-32">
+                <h2 class="text-blue-600 font-bold uppercase tracking-[0.2em] text-sm mb-3">Onze Reis</h2>
+                <p class="text-4xl font-black text-slate-900 tracking-tight mb-8 leading-tight">Van droom naar modern waterparadijs.</p>
+                <p class="text-lg text-slate-600 leading-relaxed mb-6">
+                    Het begon allemaal met een simpel idee van Marco en Marion. Hun passie voor zwemmen en hun oog voor innovatie legden de basis voor wat Zwembad M&Ms vandaag de dag is.
+                </p>
+                <img src="https://images.unsplash.com/photo-1590487949429-cd9b7bd4464b?auto=format&fit=crop&q=80&w=600" alt="Oude foto" class="rounded-3xl shadow-lg border-4 border-white mt-10">
+            </div>
+
+            <div class="lg:col-span-7 space-y-12 relative pl-10">
+                <div class="absolute left-3 top-2 bottom-2 w-0.5 bg-blue-100"></div>
+
+                <div class="relative pl-12 group">
+                    <div class="absolute left-0 top-1 w-6 h-6 rounded-full bg-blue-600 border-4 border-white shadow group-hover:scale-125 transition-transform"></div>
+                    <span class="text-sm font-bold text-blue-700 bg-blue-50 px-3 py-1 rounded-full">2010</span>
+                    <h3 class="text-2xl font-bold text-slate-900 mt-4 mb-3">De Eerste Duik</h3>
+                    <p class="text-slate-600 leading-relaxed text-sm">Marco & Marion openen hun bescheiden buurtbad. De focus ligt op persoonlijke zwemlessen en een warme, familiale sfeer.</p>
+                </div>
+
+                <div class="relative pl-12 group">
+                    <div class="absolute left-0 top-1 w-6 h-6 rounded-full bg-blue-600 border-4 border-white shadow group-hover:scale-125 transition-transform"></div>
+                    <span class="text-sm font-bold text-blue-700 bg-blue-50 px-3 py-1 rounded-full">2018</span>
+                    <h3 class="text-2xl font-bold text-slate-900 mt-4 mb-3">Uitbreiding & Innovatie</h3>
+                    <p class="text-slate-600 leading-relaxed text-sm">Het complex wordt uitgebreid met het Sportbad en de eerste wellness-faciliteiten. We introduceren de chloorvrije waterzuivering.</p>
+                </div>
+
+                <div class="relative pl-12 group">
+                    <div class="absolute left-0 top-1 w-6 h-6 rounded-full bg-blue-600 border-4 border-white shadow group-hover:scale-125 transition-transform"></div>
+                    <span class="text-sm font-bold text-blue-700 bg-blue-50 px-3 py-1 rounded-full">2026</span>
+                    <h3 class="text-2xl font-bold text-slate-900 mt-4 mb-3">M&Ms Aqua Complex</h3>
+                    <p class="text-slate-600 leading-relaxed text-sm">Vandaag de dag zijn we het meest complete en duurzame watercomplex van de regio, klaar voor de toekomst.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-slate-50 border-y border-slate-100">
+        <div class="max-w-7xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-12 text-center">
+            <div>
+                <div class="text-5xl font-black text-blue-600">150k+</div>
+                <p class="text-sm font-bold uppercase tracking-widest text-slate-500 mt-2">Jaarlijkse Bezoekers</p>
+            </div>
+            <div>
+                <div class="text-5xl font-black text-blue-600">100%</div>
+                <p class="text-sm font-bold uppercase tracking-widest text-slate-500 mt-2">Zonne-energie</p>
+            </div>
+            <div>
+                <div class="text-5xl font-black text-blue-600">25+</div>
+                <p class="text-sm font-bold uppercase tracking-widest text-slate-500 mt-2">Gediplomeerde Experts</p>
+            </div>
+            <div>
+                <div class="text-5xl font-black text-blue-600">3</div>
+                <p class="text-sm font-bold uppercase tracking-widest text-slate-500 mt-2">Unieke Zones</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-28 bg-blue-600 text-white bg-pattern">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-20 max-w-2xl mx-auto">
+                <h2 class="text-3xl md:text-5xl font-black mb-5 tracking-tight">Onze Leidende Principes</h2>
+                <p class="text-blue-100 leading-relaxed italic">Deze waarden vormen de basis van elke beslissing die we nemen.</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-10">
+                <div class="p-10 bg-white/5 rounded-[2rem] border border-white/10 hover:bg-white/10 transition duration-300">
+                    <div class="text-5xl mb-8">🌿</div>
+                    <h3 class="text-2xl font-bold mb-5">Duurzaamheid</h3>
+                    <p class="text-blue-100 leading-relaxed text-sm opacity-90">We streven naar een minimale ecologische voetafdruk door innovatieve energiezuinige technieken en waterhergebruik.</p>
+                </div>
+                <div class="p-10 bg-white/5 rounded-[2rem] border border-white/10 hover:bg-white/10 transition duration-300">
+                    <div class="text-5xl mb-8">💖</div>
+                    <h3 class="text-2xl font-bold mb-5">Inclusiviteit</h3>
+                    <p class="text-blue-100 leading-relaxed text-sm opacity-90">Iedereen is welkom. Ons complex is volledig toegankelijk en we bieden programma's voor alle leeftijden en niveaus.</p>
+                </div>
+                <div class="p-10 bg-white/5 rounded-[2rem] border border-white/10 hover:bg-white/10 transition duration-300">
+                    <div class="text-5xl mb-8">🚀</div>
+                    <h3 class="text-2xl font-bold mb-5">Innovatie</h3>
+                    <p class="text-blue-100 leading-relaxed text-sm opacity-90">We blijven investeren in de nieuwste technologieën voor waterkwaliteit, veiligheid en ultiem bezoekerscomfort.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 max-w-7xl mx-auto px-6">
+        <div class="text-center mb-20">
+            <h2 class="text-4xl font-black text-slate-900 mb-4 tracking-tight leading-tight">Ontmoet de Experts</h2>
+            <p class="text-lg text-slate-500 max-w-xl mx-auto leading-relaxed">De gedreven gezichten die uw bezoek veilig, plezierig en onvergetelijk maken.</p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+            
+            <div class="group bg-white p-8 rounded-3xl shadow-sm border border-slate-100 text-center hover:shadow-xl hover:-translate-y-2 transition-all duration-300">
+                <img src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&q=80&w=300" 
+                     class="w-32 h-32 rounded-full mx-auto object-cover mb-6 border-4 border-slate-100 group-hover:border-blue-300 transition-colors" alt="Marco">
+                <h4 class="font-bold text-lg text-slate-900">Marco Bakker</h4>
+                <p class="text-blue-600 font-semibold text-xs uppercase tracking-widest mt-1">Mede-oprichter</p>
+                <p class="text-slate-500 text-sm mt-4 italic leading-relaxed">"Passie voor techniek & waterkwaliteit."</p>
+            </div>
+
+            <div class="group bg-white p-8 rounded-3xl shadow-sm border border-slate-100 text-center hover:shadow-xl hover:-translate-y-2 transition-all duration-300 relative lg:top-8">
+                <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=300" 
+                     class="w-32 h-32 rounded-full mx-auto object-cover mb-6 border-4 border-slate-100 group-hover:border-blue-300 transition-colors" alt="Marion">
+                <h4 class="font-bold text-lg text-slate-900">Marion de Vries</h4>
+                <p class="text-blue-600 font-semibold text-xs uppercase tracking-widest mt-1">Mede-oprichtster</p>
+                <p class="text-slate-500 text-sm mt-4 italic leading-relaxed">"Focus op sfeer & klantbeleving."</p>
+            </div>
+
+            <div class="group bg-white p-8 rounded-3xl shadow-sm border border-slate-100 text-center hover:shadow-xl hover:-translate-y-2 transition-all duration-300 xl:top-0 lg:top-0">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=300" 
+                     class="w-32 h-32 rounded-full mx-auto object-cover mb-6 border-4 border-slate-100 group-hover:border-blue-300 transition-colors" alt="Sam">
+                <h4 class="font-bold text-lg text-slate-900">Sam Peters</h4>
+                <p class="text-blue-600 font-semibold text-xs uppercase tracking-widest mt-1">Hoofd Lifeguard</p>
+                <p class="text-slate-500 text-sm mt-4 italic leading-relaxed">"Uw veiligheid is mijn prioriteit."</p>
+            </div>
+
+            <div class="group bg-white p-8 rounded-3xl shadow-sm border border-slate-100 text-center hover:shadow-xl hover:-translate-y-2 transition-all duration-300 lg:top-8 xl:top-0">
+                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=300" 
+                     class="w-32 h-32 rounded-full mx-auto object-cover mb-6 border-4 border-slate-100 group-hover:border-blue-300 transition-colors" alt="Lisa">
+                <h4 class="font-bold text-lg text-slate-900">Lisa Maes</h4>
+                <p class="text-blue-600 font-semibold text-xs uppercase tracking-widest mt-1">Wellness Manager</p>
+                <p class="text-slate-500 text-sm mt-4 italic leading-relaxed">"Ontspan & herstel uw balans."</p>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="bg-slate-500 py-16 border-t border-slate-800 mt-20">
+        <div class="max-w-7xl mx-auto px-6 text-center text-white text-sm">
+            <p>&copy; 2026 Zwembad M&Ms. Project voor schoolopdracht.</p>
+            <p class="mt-2 text-xs">Gemaakt door Moustapha Kink.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

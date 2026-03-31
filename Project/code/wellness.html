@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wellness & Zen - Zwembad M&Ms</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        /* Fade-in effect voor een luxe binnenkomst */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .animate-subtle { animation: fadeIn 1.5s ease-out; }
+    </style>
+</head>
+<body class="bg-[#F9F7F2] text-stone-800 font-sans">
+
+    <nav class="bg-white/90 backdrop-blur-md sticky top-0 z-50 border-b border-stone-200">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8 flex justify-between h-20 items-center">
+            <div class="text-2xl font-light tracking-[0.3em] text-stone-600 uppercase">
+                M&Ms <span class="font-bold text-stone-800">WELLNESS</span>
+            </div>
+            <div class="hidden md:flex space-x-10 text-xs font-bold uppercase tracking-widest text-stone-500">
+                <a href="index.html">Home</a>
+                <a href="recreatie.html" class="hover:text-stone-900 transition-colors">Recreatie</a>
+                <a href="zwemlessen.html" class="hover:text-stone-900 transition-colors">Lessen</a>
+                <a href="wellness.html" class="text-stone-900 border-b-2 border-stone-900 pb-1">Wellness</a>
+                <a href="contact.html" class="hover:text-stone-900 transition-colors">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="relative h-[85vh] flex items-center justify-center overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=2070&auto=format&fit=crop" 
+             class="absolute inset-0 w-full h-full object-cover" 
+             alt="Luxe Spa Interieur">
+        <div class="absolute inset-0 bg-black/30"></div> <div class="relative z-10 text-center space-y-8 animate-subtle">
+            <span class="text-xs uppercase tracking-[0.6em] text-stone-200 font-medium">Herontdek uw innerlijke balans</span>
+            <h1 class="text-5xl md:text-8xl font-thin tracking-tighter text-white">Puur Genieten</h1>
+            <div class="h-px w-32 bg-stone-300 mx-auto opacity-50"></div>
+            <a href="#" class="inline-block border border-white px-14 py-4 text-xs font-bold uppercase tracking-widest text-white hover:bg-white hover:text-stone-900 transition-all duration-700">
+                Reserveer uw moment
+            </a>
+        </div>
+    </header>
+
+    <section class="py-24 max-w-4xl mx-auto px-6 text-center">
+        <h2 class="text-3xl font-light text-stone-900 mb-8 uppercase tracking-widest">Een oase van rust</h2>
+        <p class="text-lg text-stone-500 leading-relaxed font-light italic">
+            "Onze wellness-faciliteiten zijn ontworpen om de zintuigen te kalmeren. Van de diepe warmte van onze sauna's tot het rustgevende kabbelen van de jacuzzi – hier vindt u de stilte die u verdient."
+        </p>
+    </section>
+
+    <section class="pb-32 px-6">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            
+            <div class="group relative overflow-hidden rounded-2xl shadow-lg aspect-[3/4]">
+                <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=2070&auto=format&fit=crop" 
+                     class="absolute inset-0 w-full h-full object-cover transition duration-1000 group-hover:scale-110" alt="Finse Sauna">
+                <div class="absolute inset-0 bg-gradient-to-t from-stone-900/90 via-transparent to-transparent flex flex-col justify-end p-8">
+                    <h3 class="text-xl font-bold text-white uppercase tracking-tighter">Finse Sauna</h3>
+                    <p class="text-stone-300 text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-500">Diepe reiniging bij 90°C.</p>
+                </div>
+            </div>
+
+            <div class="group relative overflow-hidden rounded-2xl shadow-lg aspect-[3/4]">
+                <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=2070&auto=format&fit=crop" 
+                     class="absolute inset-0 w-full h-full object-cover transition duration-1000 group-hover:scale-110" alt="Turks Stoombad">
+                <div class="absolute inset-0 bg-gradient-to-t from-stone-900/90 via-transparent to-transparent flex flex-col justify-end p-8">
+                    <h3 class="text-xl font-bold text-white uppercase tracking-tighter">Stoombad</h3>
+                    <p class="text-stone-300 text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-500">Eucalyptus dampen voor vrije luchtwegen.</p>
+                </div>
+            </div>
+
+            <div class="group relative overflow-hidden rounded-2xl shadow-lg aspect-[3/4]">
+                <img src="img/jacuzi.jpg" 
+                     class="absolute inset-0 w-full h-full object-cover transition duration-1000 group-hover:scale-110" alt="Luxe Jacuzzi">
+                <div class="absolute inset-0 bg-gradient-to-t from-stone-900/90 via-transparent to-transparent flex flex-col justify-end p-8">
+                    <h3 class="text-xl font-bold text-white uppercase tracking-tighter">Jacuzzi</h3>
+                    <p class="text-stone-300 text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-500">Masserende bubbels voor totale relaxatie.</p>
+                </div>
+            </div>
+
+            <div class="group relative overflow-hidden rounded-2xl shadow-lg aspect-[3/4]">
+                <img src="https://images.unsplash.com/photo-1507652313519-d4e9174996dd?q=80&w=2070&auto=format&fit=crop" 
+                     class="absolute inset-0 w-full h-full object-cover transition duration-1000 group-hover:scale-110" alt="Rustruimte">
+                <div class="absolute inset-0 bg-gradient-to-t from-stone-900/90 via-transparent to-transparent flex flex-col justify-end p-8">
+                    <h3 class="text-xl font-bold text-white uppercase tracking-tighter">Relaxruimte</h3>
+                    <p class="text-stone-300 text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-500">Kom tot rust met een kop kruidenthee.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="bg-white py-24 border-y border-stone-200">
+        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-16 text-center">
+            <div class="space-y-4">
+                <div class="text-4xl">🌿</div>
+                <h4 class="text-xl font-bold tracking-widest uppercase">Ontspanning</h4>
+                <p class="text-stone-500 text-sm leading-relaxed">Verlaag direct uw stressniveau in een omgeving zonder afleiding.</p>
+            </div>
+            <div class="space-y-4">
+                <div class="text-4xl">✨</div>
+                <h4 class="text-xl font-bold tracking-widest uppercase">Gezondheid</h4>
+                <p class="text-stone-500 text-sm leading-relaxed">Verbeter uw bloedsomloop en versterk uw weerstand op natuurlijke wijze.</p>
+            </div>
+            <div class="space-y-4">
+                <div class="text-4xl">🌑</div>
+                <h4 class="text-xl font-bold tracking-widest uppercase">Nachtrust</h4>
+                <p class="text-stone-500 text-sm leading-relaxed">Een wellness-bezoek bevordert een diepe en herstellende slaap.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-stone-900 text-stone-400 py-16 text-center">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-2xl font-light tracking-[0.4em] text-white mb-6 uppercase">M&Ms WELLNESS</div>
+            <div class="flex justify-center space-x-8 mb-10 text-xs font-bold uppercase tracking-widest">
+                <a href="#" class="hover:text-white transition">Instagram</a>
+                <a href="#" class="hover:text-white transition">Facebook</a>
+                <a href="#" class="hover:text-white transition">Privacy Policy</a>
+            </div>
+            <p class="text-[10px] uppercase tracking-[0.2em] opacity-40">
+                &copy; 2026 Zwembad M&Ms - Exclusieve Wellness Experience
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>

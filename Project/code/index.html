@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="nl" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Zwembad M&Ms - Modern Zwemcomplex</title>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    
+    <style>
+        /* Subtiele animatie voor de tekst in de Hero */
+        @keyframes fadeInDown {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .animate-fade-in { animation: fadeInDown 1s ease-out; }
+    </style>
+</head>
+<body class="bg-white text-slate-900 antialiased font-sans">
+
+    <nav class="sticky top-0 w-full z-50 bg-white/90 backdrop-blur-md border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center">
+            <div class="text-2xl font-black text-blue-600 tracking-tighter">
+                M&Ms <span class="text-slate-400 font-light italic text-xl uppercase tracking-widest ml-1">Aqua</span>
+            </div>
+            
+            <div class="hidden md:flex space-x-10 font-bold text-sm uppercase tracking-wider text-slate-600">
+                <a href="#home" class="text-blue-600 border-b-2 border-blue-600">Home</a>
+                <a href="#waarom" class="hover:text-blue-600 transition">Waarom ons?</a>
+                <a href="#complex" class="hover:text-blue-600 transition">Het Complex</a>
+                <a href="contact.html" class="hover:text-blue-600 transition text-amber-600">Contact</a>
+                
+            </div>
+
+            <a href="winkelkar.html" class="bg-blue-600 text-white px-6 py-2.5 rounded-full font-bold text-sm hover:bg-blue-700 transition shadow-md active:scale-95">
+                Tickets & Info
+            </a>
+        </div>
+    </nav>
+
+    <header id="home" class="relative h-[85vh] flex items-center justify-center overflow-hidden bg-slate-900">
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?auto=format&fit=crop&q=80&w=2070" 
+                 alt="Modern Zwembad" 
+                 class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-slate-900/30 to-transparent"></div>
+        </div>
+
+        <div class="relative z-10 max-w-5xl mx-auto px-6 text-center text-white animate-fade-in">
+            <h1 class="text-5xl md:text-7xl lg:text-8xl font-black mb-6 tracking-tight leading-[1.1]">
+                Duik in de wereld van <span class="text-blue-400">M&Ms.</span>
+            </h1>
+            <p class="text-lg md:text-2xl text-slate-200 mb-10 max-w-2xl mx-auto leading-relaxed">
+                Ervaar de perfecte combinatie van sportieve uitdaging, familiair plezier en serene rust in het meest moderne zwemcomplex van de regio.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="winkelkar.html" class="bg-blue-600 text-white px-10 py-4 rounded-2xl font-extrabold text-lg shadow-lg hover:bg-blue-700 hover:-translate-y-1 transition-all">
+                    Bestel Tickets
+                </a>
+                <a href="#complex" class="bg-white/10 backdrop-blur-md border border-white/30 text-white px-10 py-4 rounded-2xl font-extrabold text-lg hover:bg-white/20 transition-all">
+                    Ontdek de Baden
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section id="waarom" class="py-24 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-blue-600 font-bold uppercase tracking-[0.2em] text-sm mb-3">Onze Belofte</h2>
+                <p class="text-3xl md:text-5xl font-black text-slate-900 tracking-tight">Waarom Zwembad M&Ms?</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+                <div class="bg-white p-10 rounded-[2.5rem] shadow-sm border border-slate-100 hover:shadow-xl transition-shadow duration-300">
+                    <div class="w-16 h-16 bg-blue-100 text-blue-600 rounded-2xl flex items-center justify-center text-3xl mb-8">💎</div>
+                    <h3 class="text-xl font-bold mb-4">Kristalhelder Water</h3>
+                    <p class="text-slate-600 leading-relaxed italic">"Extreem schoon water dankzij onze zoutelektrolyse-technologie."</p>
+                </div>
+
+                <div class="bg-white p-10 rounded-[2.5rem] shadow-sm border border-slate-100 hover:shadow-xl transition-shadow duration-300">
+                    <div class="w-16 h-16 bg-amber-100 text-amber-600 rounded-2xl flex items-center justify-center text-3xl mb-8">🌡️</div>
+                    <h3 class="text-xl font-bold mb-4">Altijd 28°C+</h3>
+                    <p class="text-slate-600 leading-relaxed italic">"Geen koude rillingen meer; al onze baden zijn duurzaam verwarmd."</p>
+                </div>
+
+                <div class="bg-white p-10 rounded-[2.5rem] shadow-sm border border-slate-100 hover:shadow-xl transition-shadow duration-300">
+                    <div class="w-16 h-16 bg-emerald-100 text-emerald-600 rounded-2xl flex items-center justify-center text-3xl mb-8">🛡️</div>
+                    <h3 class="text-xl font-bold mb-4">Veiligheid Eerst</h3>
+                    <p class="text-slate-600 leading-relaxed italic">"Gediplomeerde lifeguards houden constant toezicht op u en uw kinderen."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="complex" class="py-24">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex flex-col lg:flex-row items-center gap-16">
+                <div class="lg:w-1/2 grid grid-cols-2 gap-4">
+                    <div class="space-y-4">
+                        <img src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&q=80&w=600" class="rounded-3xl shadow-lg" alt="Sportbad">
+                        <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&q=80&w=600" class="rounded-3xl shadow-lg" alt="Wellness">
+                    </div>
+                    <div class="pt-12">
+                        <img src="img/682dc8f869eaf074fb592e72_F3 Kleedkamerlockers.jpeg" class="rounded-3xl shadow-lg" alt="Familiebad">
+                    </div>
+                </div>
+                
+                <div class="lg:w-1/2">
+                    <h2 class="text-4xl font-black mb-8 text-slate-900 italic leading-tight">
+                        Een moderne beleving voor elke waterliefhebber.
+                    </h2>
+                    <p class="text-lg text-slate-600 mb-8 leading-relaxed">
+                        Zwembad M&Ms is niet zomaar een bad; het is een complex waar sport en ontspanning samenkomen. Onze faciliteiten zijn ontworpen met oog voor detail en comfort.
+                    </p>
+                    
+                    <ul class="space-y-5 mb-10">
+                        <li class="flex items-center gap-4 text-slate-700 font-medium">
+                            <span class="w-6 h-6 bg-blue-600 text-white rounded-full flex items-center justify-center text-xs">✓</span>
+                            Drie verschillende temperatuurzones
+                        </li>
+                        <li class="flex items-center gap-4 text-slate-700 font-medium">
+                            <span class="w-6 h-6 bg-blue-600 text-white rounded-full flex items-center justify-center text-xs">✓</span>
+                            Luxe kleedkamers met individuele lockers
+                        </li>
+                        <li class="flex items-center gap-4 text-slate-700 font-medium">
+                            <span class="w-6 h-6 bg-blue-600 text-white rounded-full flex items-center justify-center text-xs">✓</span>
+                            Horeca met gezonde snacks en verse sapjes
+                        </li>
+                    </ul>
+                    
+                    <a href="#" class="inline-block text-blue-600 font-bold border-b-2 border-blue-600 pb-1 hover:text-blue-800 transition uppercase tracking-widest text-sm">
+                        Bekijk alle faciliteiten &rarr;
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-slate-900 py-16">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <div class="text-white font-black text-2xl mb-4">ZWEMBAD M&Ms</div>
+            <p class="text-slate-500 text-sm mb-8 max-w-sm mx-auto italic">
+                Professionaliteit, Hygiëne en Plezier.
+            </p>
+            <div class="border-t border-slate-800 pt-8 text-slate-600 text-xs uppercase tracking-[0.3em]">
+                &copy; 2026 Gebouwd door Moustapha Kink
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

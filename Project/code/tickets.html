@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tickets Kopen - Zwembad M&Ms</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-blue-50 text-slate-900 font-sans">
+
+    <nav class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center">
+            <div class="text-2xl font-black text-blue-600">ZWEMBAD <span class="text-yellow-500">M&Ms</span></div>
+            <div class="space-x-6 font-bold uppercase text-xs tracking-widest">
+                <a href="index.html" class="hover:text-blue-600">Home</a>
+                <a href="recreatie.html" class="hover:text-blue-600">Recreatie</a>
+                <a href="zwemlessen.html" class="hover:text-blue-600">Lessen</a>
+                <a href="wellness.html" class="hover:text-blue-600">Wellness</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="py-20 max-w-4xl mx-auto px-6">
+        <h1 class="text-4xl font-black text-center text-blue-900 mb-12 uppercase">Bestel je Tickets</h1>
+        
+        <div class="bg-white rounded-3xl shadow-2xl p-8 md:p-12 border-t-8 border-yellow-400">
+            <form action="#" class="space-y-6">
+                <div>
+                    <label class="block font-bold mb-2">Kies je ticket</label>
+                    <select class="w-full p-4 border-2 border-blue-100 rounded-xl focus:border-blue-500 outline-none">
+                        <option>Familiezwemmen (Dagticket) - €8,50</option>
+                        <option>Wellness Toegang - €15,00</option>
+                        <option>Combi (Zwemmen + Wellness) - €20,00</option>
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-2 gap-4">
+                    <div>
+                        <label class="block font-bold mb-2">Aantal personen</label>
+                        <input type="number" min="1" value="1" class="w-full p-4 border-2 border-blue-100 rounded-xl">
+                    </div>
+                    <div>
+                        <label class="block font-bold mb-2">Datum</label>
+                        <input type="date" class="w-full p-4 border-2 border-blue-100 rounded-xl">
+                    </div>
+                </div>
+
+                <button type="submit" class="w-full bg-blue-600 text-white font-black py-5 rounded-2xl text-xl hover:bg-blue-700 transition-all shadow-lg">
+                    AFREKENEN VIA IDEAL / BANCONTACT
+                </button>
+            </form>
+            <p class="text-center text-xs text-slate-400 mt-6 italic">Je ontvangt je tickets direct na betaling in je mailbox.</p>
+        </div>
+    </section>
+
+</body>
+</html>
